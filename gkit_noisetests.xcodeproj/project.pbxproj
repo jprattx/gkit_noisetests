@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB1B822B1E395DCB0008BFF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1B822A1E395DCB0008BFF5 /* AppDelegate.m */; };
+		BB1B822E1E395DCB0008BFF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1B822D1E395DCB0008BFF5 /* main.m */; };
+		BB1B82301E395DCB0008BFF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1B822F1E395DCB0008BFF5 /* Assets.xcassets */; };
+		BB1B82331E395DCB0008BFF5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB1B82311E395DCB0008BFF5 /* MainMenu.xib */; };
+		BB1B823D1E395DF40008BFF5 /* NoiseTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1B823B1E395DF40008BFF5 /* NoiseTestViewController.m */; };
+		BB1B82411E395E0B0008BFF5 /* NoiseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1B82401E395E0B0008BFF5 /* NoiseTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB1B82261E395DCB0008BFF5 /* gkit_noisetests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gkit_noisetests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1B82291E395DCB0008BFF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB1B822A1E395DCB0008BFF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB1B822D1E395DCB0008BFF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB1B822F1E395DCB0008BFF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB1B82321E395DCB0008BFF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BB1B82341E395DCB0008BFF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB1B823A1E395DF40008BFF5 /* NoiseTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoiseTestViewController.h; sourceTree = "<group>"; };
+		BB1B823B1E395DF40008BFF5 /* NoiseTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoiseTestViewController.m; sourceTree = "<group>"; };
+		BB1B823F1E395E0B0008BFF5 /* NoiseTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoiseTest.h; sourceTree = "<group>"; };
+		BB1B82401E395E0B0008BFF5 /* NoiseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoiseTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB1B82231E395DCB0008BFF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB1B821D1E395DCA0008BFF5 = {
+			isa = PBXGroup;
+			children = (
+				BB1B82281E395DCB0008BFF5 /* gkit_noisetests */,
+				BB1B82271E395DCB0008BFF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB1B82271E395DCB0008BFF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB1B82261E395DCB0008BFF5 /* gkit_noisetests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB1B82281E395DCB0008BFF5 /* gkit_noisetests */ = {
+			isa = PBXGroup;
+			children = (
+				BB1B82291E395DCB0008BFF5 /* AppDelegate.h */,
+				BB1B822A1E395DCB0008BFF5 /* AppDelegate.m */,
+				BB1B822F1E395DCB0008BFF5 /* Assets.xcassets */,
+				BB1B82311E395DCB0008BFF5 /* MainMenu.xib */,
+				BB1B82341E395DCB0008BFF5 /* Info.plist */,
+				BB1B822C1E395DCB0008BFF5 /* Supporting Files */,
+				BB1B823A1E395DF40008BFF5 /* NoiseTestViewController.h */,
+				BB1B823B1E395DF40008BFF5 /* NoiseTestViewController.m */,
+				BB1B823F1E395E0B0008BFF5 /* NoiseTest.h */,
+				BB1B82401E395E0B0008BFF5 /* NoiseTest.m */,
+			);
+			path = gkit_noisetests;
+			sourceTree = "<group>";
+		};
+		BB1B822C1E395DCB0008BFF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB1B822D1E395DCB0008BFF5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB1B82251E395DCB0008BFF5 /* gkit_noisetests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1B82371E395DCB0008BFF5 /* Build configuration list for PBXNativeTarget "gkit_noisetests" */;
+			buildPhases = (
+				BB1B82221E395DCB0008BFF5 /* Sources */,
+				BB1B82231E395DCB0008BFF5 /* Frameworks */,
+				BB1B82241E395DCB0008BFF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gkit_noisetests;
+			productName = gkit_noisetests;
+			productReference = BB1B82261E395DCB0008BFF5 /* gkit_noisetests.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB1B821E1E395DCA0008BFF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Noctivagous;
+				TargetAttributes = {
+					BB1B82251E395DCB0008BFF5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BB1B82211E395DCA0008BFF5 /* Build configuration list for PBXProject "gkit_noisetests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB1B821D1E395DCA0008BFF5;
+			productRefGroup = BB1B82271E395DCB0008BFF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB1B82251E395DCB0008BFF5 /* gkit_noisetests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB1B82241E395DCB0008BFF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1B82301E395DCB0008BFF5 /* Assets.xcassets in Resources */,
+				BB1B82331E395DCB0008BFF5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB1B82221E395DCB0008BFF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1B82411E395E0B0008BFF5 /* NoiseTest.m in Sources */,
+				BB1B822E1E395DCB0008BFF5 /* main.m in Sources */,
+				BB1B823D1E395DF40008BFF5 /* NoiseTestViewController.m in Sources */,
+				BB1B822B1E395DCB0008BFF5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB1B82311E395DCB0008BFF5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB1B82321E395DCB0008BFF5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB1B82351E395DCB0008BFF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BB1B82361E395DCB0008BFF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BB1B82381E395DCB0008BFF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = gkit_noisetests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nctvgs.gkit-noisetests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB1B82391E395DCB0008BFF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = gkit_noisetests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nctvgs.gkit-noisetests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB1B82211E395DCA0008BFF5 /* Build configuration list for PBXProject "gkit_noisetests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1B82351E395DCB0008BFF5 /* Debug */,
+				BB1B82361E395DCB0008BFF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1B82371E395DCB0008BFF5 /* Build configuration list for PBXNativeTarget "gkit_noisetests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1B82381E395DCB0008BFF5 /* Debug */,
+				BB1B82391E395DCB0008BFF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB1B821E1E395DCA0008BFF5 /* Project object */;
+}
